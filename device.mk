@@ -22,8 +22,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    EvolutionSettingsResTarget \
-    EvolutionSystemUIResTarget \
+    DeviceSettingsResTarget \
+    DeviceSystemUIResTarget \
     OPlusFrameworksResTarget \
     OPlusExtrasResTarget \
     OPlusSettingsProviderResTarget \
@@ -49,3 +49,6 @@ $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/instantnoodle/instantnoodle-vendor.mk)
+
+# Inherit from the goofy files makefile.
+$(call inherit-product, device/oneplus/instantnoodle/cup/vars.mk)
