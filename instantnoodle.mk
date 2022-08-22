@@ -17,7 +17,7 @@ $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 SAUCE := SPARK
 
-PRODUCT_NAME := spark_instantnoodle
+
 PRODUCT_DEVICE := instantnoodle
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

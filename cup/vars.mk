@@ -1,4 +1,5 @@
 ifeq ($(SAUCE),SPARK)
+PRODUCT_NAME := spark_instantnoodle
 WITH_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -11,6 +12,7 @@ TARGET_OTA := false
 TARGET_SYSTEM_PROP += device/oneplus/instantnoodle/cup/spark.prop
 endif
 ifeq ($(SAUCE),CHERISH)
+PRODUCT_NAME := cherish_instantnoodle
 TARGET_FACE_UNLOCK_SUPPORTED := true
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
@@ -22,6 +24,7 @@ PRODUCT_GENERIC_PROPERTIES += \
     ro.cherish.maintainer=killcmd
 endif
 ifeq ($(SAUCE),DERP)
+PRODUCT_NAME := derp_instantnoodle
 TARGET_FACE_UNLOCK_SUPPORTED := true
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
@@ -30,6 +33,16 @@ TARGET_USES_BLUR := true
 TARGET_SUPPORTS_64_BIT_APPS := true
 EXTRA_FOD_ANIMATIONS := true
 WITH_GMS := true
+endif
+ifeq ($(SAUCE),ARROW)
+PRODUCT_NAME := arrow_instantnoodle
+ARROW_GAPPS := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_ADAPTIVE_CHARGING := true
+TARGET_BUILD_LAWNCHAIR := false
 endif
 
 # General Included
