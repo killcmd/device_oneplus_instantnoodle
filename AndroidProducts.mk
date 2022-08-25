@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/instantnoodle.mk
+    $(LOCAL_DIR)/spark_instantnoodle.mk
 
 COMMON_LUNCH_CHOICES := \
-    instantnoodle-user \
-    instantnoodle-userdebug \
-    instantnoodle-eng
+    spark_instantnoodle-user \
+    spark_instantnoodle-userdebug \
+    spark_instantnoodle-eng
