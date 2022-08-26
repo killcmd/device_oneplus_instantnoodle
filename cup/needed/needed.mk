@@ -1,2 +1,3 @@
 PRODUCT_PACKAGES += \
-ih8sn
+ih8sn \
+RemovePackages
