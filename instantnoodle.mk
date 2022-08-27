@@ -13,9 +13,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/instantnoodle/device.mk)
 
 # Inherit some common Spark stuff.
-$(call inherit-product, vendor/spark/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
-SAUCE := SPARK
+SAUCE := ARROW
 
 
 PRODUCT_DEVICE := instantnoodle
