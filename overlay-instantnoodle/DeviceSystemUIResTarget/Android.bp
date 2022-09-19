@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "EvolutionSystemUIResTarget",
+    name: "DeviceSystemUIResTarget",
     device_specific: true,
 }

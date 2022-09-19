@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "EvolutionSettingsResTarget",
+    name: "DeviceSettingsResTarget",
     device_specific: true,
 }

@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_instantnoodle.mk
+    $(LOCAL_DIR)/derp_instantnoodle.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_instantnoodle-user \
-    evolution_instantnoodle-userdebug \
-    evolution_instantnoodle-eng
+    derp_instantnoodle-user \
+    derp_instantnoodle-userdebug \
+    derp_instantnoodle-eng
